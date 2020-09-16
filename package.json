@@ -1,0 +1,23 @@
+{
+  "name": "red-bici",
+  "version": "1.0.0",
+  "description": "Red Bici ....",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "devstart": "nodemon server"
+  },
+  "keywords": [],
+  "author": "Adrian L Gonzalez - @adrgon",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "mongoose": "^5.10.5",
+    "pug": "^3.0.0"
+  }
+}
